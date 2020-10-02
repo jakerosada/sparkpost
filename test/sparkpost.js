@@ -57,4 +57,24 @@ describe("/POST sparkpost", () => {
       });
   });
 });
+describe("/PUT update user age", () => {
+  it("it should update a user", (done) => {
+    let user = {
+      name: "Jake Rosada",
+      age: 29,
+    };
+    chai
+      .request(app)
+      .put("/sparkpost")
+      .send(user)
+      .end((err, res) => {
+        res.should.have.status(200);
+        res.body.should.be.a("object");
+        res.body.should.have.property("message");
+        res.body.should.have.property("name");
+        res.body.should.have.property("age");
+        done();
+      });
+  });
+});
 server.close();
