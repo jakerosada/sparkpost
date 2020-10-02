@@ -3,7 +3,7 @@ This project is a take home coding exercise for SparkPost
 
 SparkPost API:
 
-Endpoint - /sparkpost: 
+Endpoint - /sparkpost
 
 POST - post a new user to our user records. 
 
