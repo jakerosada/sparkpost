@@ -35,6 +35,7 @@ EXAMPLE response
 ]
 ```
 PUT - update a users age
+
 EXAMPLE request
 ```
 {
