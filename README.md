@@ -5,8 +5,8 @@ This project is a take home coding exercise for SparkPost
 
 SparkPost API:
 ---------------
-### Heading 3 ### Endpoint - /sparkpost
 
+### Endpoint - /sparkpost ###
 POST - post a new user to our user records. 
 
 EXAMPLE request:
@@ -31,7 +31,7 @@ EXAMPLE request:
     }
 ]
 
-### Heading 3 ### Endpoint - /sparkpost/:name
+### Endpoint - /sparkpost/:name ###
 
 GET - retrieve a specific users information
 
