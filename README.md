@@ -1,10 +1,10 @@
 # sparkpost
-#Heading 1
+
 This project is a take home coding exercise for SparkPost
-#
-#Heading 2
+=============
+
 SparkPost API:
-#
+---------------
 Endpoint - /sparkpost
 
 POST - post a new user to our user records. 
@@ -44,9 +44,8 @@ EXAMPLE response
     "age": 26
 }
 
-#Heading 2
 DOCKER:
-#
+---------------
 Build command - docker build -t sparkpost .
 
 Run command - docker run -d -p 8000 -e PORT=8000 sparkpost
