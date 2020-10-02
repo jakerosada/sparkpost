@@ -9,10 +9,12 @@
 POST - post a new user to our user records.
 
 EXAMPLE request:
+```
 {
 "name": string,
 "age": integer
 }
+```
 EXAMPLE response:
 {
 "message": "Succesfully Added!",
