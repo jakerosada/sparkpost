@@ -41,3 +41,10 @@ EXAMPLE response
     "name": "jake rosada",
     "age": 26
 }
+
+
+DOCKER:
+
+Build command - docker build -t sparkpost .
+
+Run command - docker run -d -p 8000 -e PORT=8000 sparkpost
