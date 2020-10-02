@@ -48,4 +48,4 @@ DOCKER:
 ---------------
 Build command - docker build -t sparkpost .
 
-Run command - docker run -d -p 8000:5000 -e PORT=8000 sparkpost
+Run command - docker run -d -p 8000:5000 -e PORT=5000 sparkpost
